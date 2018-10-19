@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="viewport" Content="width=device-width,initial-scale=1">
+       <title>NextGen</title>	
+       <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+       <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen" />
+       <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" media="screen" />	   
+       <link rel="stylesheet" href="web-fonts/css/fontawesome-all.min.css"/> 
+    </head>
+     <body> 
+        <header>
+            <section class="main-header">
+                <aside class="header-top">
+                     <div class="header-top-fast">                       
+                        <div class="dropdown" style="float:left;">
+                            <div class="dropbtn">Contact Info <i class="fa fa-angle-down"></i></div>
+                            <div class="dropdown-content" style="left:0;">
+                            <a href="skype:+1234567890?">+88 1234567890</a>
+                            <a href="mailto:NextGen@gmail.com">NextGen@gmail.com</a>
+                            </div>
+                        </div>
+  
+                                                
+                        <form class="seaechicon" action="#">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            <input type="text" placeholder="Search.." name="search">
+                        </form>
+  
+                     </div>
+                    <div class="header-top-last">
+                        <div class="header-top-last-all" >
+                            <i class="fa fa-heart fa-lg fa-fw" aria-hidden="true"></i>
+                            <img src="img/Cart.png" alt="">
+                           <div class="user_profile">
+                               <p>Welcome</p>
+                               <h4>Victor Mayham</h4>
+                               <div class="user_profile_img" onclick="userprofileFunction()"><img src="img/profile/1.png" alt="" style=" width: 40px;border-radius: 50%;"></div>
+                               <div id="userprofiles">
+                                   <div class="user_profile_dowpdown">
+                                       
+                                       <ul>
+                                           <li><a href="#">Dashboard</a></li>
+                                           <li><a href="#">Edit Profile</a></li>
+                                           <li><a href="#">Billing info</a></li>
+                                           <li><a href="#">Wishlist</a></li>
+                                           
+                                       </ul>
+                                      <div class="user_profile_dowpdown_logout"> <a href="#">Logout</a></div>
+                                   </div>  
+                           </div>
+                        </div>
+                    </div>
+                </aside>
+                
+            </section>
+        </header> 
+          <!-- Important Owl stylesheet -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+	<!-- Include js plugin --> 
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+            <script>
+                function userprofileFunction() {
+                    var x = document.getElementById("userprofiles");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+	
+     </body>
+</html>
+
+
+

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta name="viewport" Content="width=device-width,initial-scale=1">
+       <title>NextGen</title>   
+       <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+       <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen" />
+       <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" media="screen" />       
+       <link rel="stylesheet" href="web-fonts/css/fontawesome-all.min.css"/> 
+    </head>
+     <body>
+        <!-- start header rayhan -->
+        <header>
+            <section class="main-header">
+                <div class="header-top">
+                    <div class="header-top-fast">                       
+                        <div class="dropdown" style="float:left;">
+                            <div class="dropbtn">Contact Info <i class="fa fa-angle-down"></i></div>
+                                <div class="dropdown-content" style="left:-2vw;">
+                                    <a href="skype:+1234567890?">+88 1234567890</a>
+                                    <a href="mailto:NextGen@gmail.com">NextGen@gmail.com</a>
+                                </div>
+                            </div>                      
+                            <form class="seaechicon" action="#">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                                <input type="text" placeholder="" name="search">
+                            </form>
+                    </div>
+                    <div class="header-top-last">
+                        <div class="header-top-last-all" >
+                            <a href="wishlist.html"><i class="fa fa-heart fa-lg fa-fw" aria-hidden="true"></i></a>
+                            <img src="img/Cart.png" alt="">
+                            <!-- naim section start -->
+                            <div class="cart" id="cart_show">
+                                <div class="cart-one">
+                                    <h2>CART (01)</h2>
+                                    <a><i class="fa fa-close"></i></a>
+                                </div>
+                                <div class="cart-two-main">
+                                    <h3>Understanding the IT Landscape</h3>
+                                    <a><i class="fa fa-trash"></i></a>
+                                    <div class="cart-two-para">
+                                         <p>Course Name: Understanding the IT Landscape</p>
+                                         <p>Delivery Formate: On- demand</p>
+                                     </div>
+                                    <div class="cart-two-p-t">
+                                         <p>Quantity: 1</p>
+                                         <h4>BDT 14,000/-</h4>
+                                    </div>
+                                </div>
+                                <div class="cart-three">
+                                    <div class="cart-three-one">
+                                     <h4>Subtotal</h4>
+                                     <h2>BDT 14,000/-</h2>
+                                    </div>   
+                                    <div class="cart-three-two">
+                                     <button class="button"><h3>CHECKOUT</h3></button>
+                                    </div>
+                                    <div class="cart-three-three">
+                                     <p><span style="color:#464848">OR,</span> <span style="color:#ffffff">Continue Shopping</span> </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- naim section finished -->
+                            <button onclick="myFunction()">Sing in</button>
+                            <div id="logindowpdown">
+                                <form action="#">
+                                    <input type="text"  placeholder="Email" type="email">
+                                    <input type="text"  placeholder="password" type="password">
+                                    <a href="create-your-account.html">Create an account</a>
+                                    <button class="singin" type="submit" value="Submit">Sing In</button>
+                                    <h6>Or,</h6>
+                                        <button class="singup" type="submit"  value="Submit">Sing Up</button>
+                                        <a href="#">Forget Password?</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchfome2">
+                        <form class="" action="#">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            <input type="text" placeholder="" name="search">
+                        </form>
+                    </div>  
+                </div>
+                <div class="header-bottom">
+                    <div class="logosection">
+                        <a title="NextGen" href="index.html"><img src="img/FinalLogo.png"/></a>
+                    </div>
+                    <div class="mainmenusection">  
+                        <nav>
+                            <div class="toggle"><i class="fas fa-bars mainmanu"></i></div>
+                            <ul  class="font-menu-bar">
+                                <li class="active" id="train_prog"><a title="TRAINING PROGRAMS" href="#"  aria-haspopup="true">TRAINING PROGRAMS<i class="fa fa-angle-down"></i></a></li>                     
+                                <li><a title="CONSULTING SERVICES" href="YourCourses.html" aria-haspopup="true">CONSULTING SERVICES</a></li>
+                                <li><a title="GLOBAL AFFILIATION" href="upcommimg.html" aria-haspopup="true">GLOBAL AFFILIATION</a></li>
+                                <li><a title="CERTIFICATION PATH" href="#" aria-haspopup="true">CERTIFICATION PATH </a></li>
+                                <li><a title="COMPANY" href="#"  aria-haspopup="true">COMPANY</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="big_menu_wrapper">
+                        <div class="big_menu">
+                            <ul>
+                                <h3>Our Categories</h3>
+                                <li>
+                                    <span><img src="img/fire.png" alt=""></span>
+                                    <a href="" class="current" id="security">IT Security(10)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/rocket.png" alt=""></span>
+                                    <a href="" id="pm">Project Management(20)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/light.png" alt=""></span>
+                                    <a href="" id="sm">IT Service Management(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/govt.png" alt=""></span>
+                                    <a href="" id="sm">IT Policy & Governance(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/cloud.png" alt=""></span>
+                                    <a href="" id="sm">Virtualization & Cloud Computing(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/database.png" alt=""></span>
+                                    <a href="" id="sm">Big Data & Data Science(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/idea.png" alt=""></span>
+                                    <a href="" id="sm">Business Intelligence(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/leader.png" alt=""></span>
+                                    <a href="" id="sm">Leadership and Professional Development(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/crypto.png" alt=""></span>
+                                    <a href="" id="sm">Blockchain(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/code.png" alt=""></span>
+                                    <a href="" id="sm">Programming and Networking(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/office.png" alt=""></span>
+                                    <a href="" id="sm">Office Application(15)</a>
+                                </li>
+                                <li>
+                                    <span><img src="img/python.png" alt=""></span>
+                                    <a href="" id="sm">Application Development & Python(15)</a>
+                                </li>
+                                
+                            </ul>
+                            <div class="big_sub_menu">
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href="">teen Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href="">PRINCE2® Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub_child_menus" data-id="security">
+                                
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href="">teen Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href="">PRINCE2® Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>IT Security Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub_child_menus" data-id="pm">
+                                
+                               <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Project Training</h4>
+                                        <a href="">teen Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Project Training</h4>
+                                        <a href="">PRINCE2® Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Project Training</h4>
+                                        <a href="">lorem ipsum</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Project Training</h4>
+                                        <a href="">lorem ipsum demo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sub_child_menus" data-id="sm">
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Service Management Training</h4>
+                                        <a href="">teen Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Service Management Training</h4>
+                                        <a href="">PRINCE2® Foundation & Practitioner</a>
+                                        <a href="">Practitioner</a>
+                                        <a href="">Test</a>
+                                        <a href="">Foundation</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Service Management Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                                <ul class="sub_menu_ul">
+                                    <li>
+                                        <h4>Service Management Training</h4>
+                                        <a href=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header> 
+        
+        <div class="cr-account-title">
+            <h2>Change Information</h2>
+        </div>
+        <div class="change-info-wrapper  form boxShadow">
+            
+            <div class="create-account-form">
+                <div class="cr-form-group input100">
+                    <label for="">Company Name:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input100">
+                    <label for="">Company Address:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input35">
+                    <label for="">City:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input35">
+                    <label for="">Area:</label>
+                    <select name="" id="">
+                        <option value="">Mirpur</option>
+                        <option value="">Uttara</option>
+                        <option value="">Motizeel</option>
+                        <option value="">Arambag</option>
+                        <option value="">Farmgate</option>
+                    </select>
+                </div>
+                <div class="cr-form-group input30">
+                    <label for="">Postal Code:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">First Name:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Last Name:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Primary Cell Phone:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Secondary Cell Phone:</label>
+                    <input type="text">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Email:</label>
+                    <input type="email">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Confirm Email:</label>
+                    <input type="email">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Password:</label>
+                    <input type="password">
+                </div>
+                <div class="cr-form-group input50">
+                    <label for="">Confirm Password:</label>
+                    <input type="password">
+                </div>
+                
+                <div class="cr-form-group change_info_submit">
+                    <input type="submit" value="Save information">
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer_wrapper">
+                <div class="footer_top">
+                    <div class="foot_first">
+                        <h3>stay conneted</h3>
+                        <h4>join over 10,000 peoples community</h4>
+                        <div class="foot_search">
+                            <input type="text" placeholder="email">
+                            <input type="submit" value="join">
+                        </div>
+                        <div class="foot_social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot_second">
+                        <h3>our goal</h3>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h4>
+                        <div class="foot_copyright">
+                            <div class="foot_copy_logo">
+                                <img src="img/nextgenWhite.png" alt="NextGen">
+                            </div>
+                            <div class="foot_copy_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foot_third">
+                        <h3>navigate</h3>
+                        <a href="" target="_blank">About</a>
+                        <a href="" target="_blank">In-House Training</a>
+                        <a href="" target="_blank">Contact</a>
+                        <a href="trainer.html" target="_blank">Become an trainer</a>
+                        <a href="" target="_blank">Sitemap</a>
+                        <a href="" target="_blank">Clients</a>
+                        <a href="" target="_blank">Privacy</a>
+                        <a href="" target="_blank">Career</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                <div class="foot_privacy">
+                    <a href="" target="_blank">privacy policy</a>
+                    <a href="" target="_blank">site map</a>
+                </div>
+            </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+    <!-- Include js plugin --> 
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/active.js"></script>
+    <script type="text/javascript">
+
+        function myFunction() {
+            var x = document.getElementById("logindowpdown");
+            var y = document.getElementById("cart_show");
+
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+                                    
+        jQuery(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+            loop:true,
+            navigation : false,
+            autoplay: true,
+            responsive:{
+                0:{
+                    items:1,
+                    
+                },
+                760:{
+                    items:1,
+                
+                },
+                1000:{
+                    items:1,
+                    
+                }
+            }
+        });
+        });
+                                                
+        
+        $(document).ready(function(){
+            $('.mainmanu').click(function(){
+                $('.font-menu-bar').toggleClass('active');
+            });
+
+            //upcomming page js
+            $(".click_icon").click(function(){
+                $(".up_comming_main_page_last_last_section").addClass("up_comming_main_page_last_last_section_iconchange");
+            });
+
+            $(".click_icon1").click(function(){
+                $(".up_comming_main_page_last_last_section").removeClass("up_comming_main_page_last_last_section_iconchange");
+            });
+
+            //wishlist page js
+            $(".click_icon").click(function(){
+                $(".our_coureses_main_page_last_last_section").addClass("up_comming_main_page_last_last_section_iconchange");
+            });
+
+            //cart section js
+            $(".header-top-last img").click(function(){
+                $(".cart").toggle('slow');
+                $("#logindowpdown").css("display","none");
+            });
+
+
+        })
+  
+    </script> 
+
+     </body>
+</html>
+
+
+
